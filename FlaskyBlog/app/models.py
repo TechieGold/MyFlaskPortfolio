@@ -1,5 +1,5 @@
-from app import db, login_manager
 from datetime import datetime
+from app import db, login_manager
 from flask_login import UserMixin
 
 
@@ -28,4 +28,4 @@ class Post(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
     def __repr__(self):
-        return f"Post('{self.title}', '{self.content}, '{self.date_posted}')"
+        return f"Post('{self.title}', '{self.date_posted}')"

@@ -1,3 +1,4 @@
 /fb-venv
 /instance/
 /__pycache__/
+app/__pycache__/
