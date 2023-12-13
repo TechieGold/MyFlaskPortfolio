@@ -1,1 +1,0 @@
-# TechHireHub is your go-to platform for finding tech jobs effortlessly. Connect with top tech companies and discover exciting career opportunities tailored to your skills.
